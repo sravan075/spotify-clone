@@ -1,0 +1,37 @@
+Before starting the project, ensure you have completed the following steps:
+
+1. Install Node.js and Yarn:
+   - Node.js (version >= 12.0.0): https://nodejs.org/
+   - Yarn (version >= 1.0.0): https://classic.yarnpkg.com/
+
+2. Installing Dependencies:
+
+   To add the required dependencies to your project, run the following commands in your project directory:
+
+   React Icons:
+   ```
+   yarn add react-icons
+   ```
+
+   Axios:
+   ```
+   yarn add axios
+   ```
+
+   Styled Components:
+   ```
+   yarn add styled-components
+   ```
+
+3. Verify Installation:
+
+   After running the commands above, ensure that the dependencies are successfully installed by checking your `package.json` file and confirming the presence of `react-icons`, `axios`, and `styled-components` in the dependencies section.
+
+4. Start Your Project:
+
+   Once all dependencies are installed, you're ready to start your project! You can now proceed with developing your React application using these libraries.
+
+Additional Resources:
+- React Icons: https://react-icons.github.io/react-icons/
+- Axios: https://axios-http.com/
+- Styled Components: https://styled-components.com/
