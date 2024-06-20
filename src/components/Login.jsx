@@ -11,9 +11,9 @@ export default function Login() {
     // 4. Set the Redirect URI to 'http://localhost:3000/' in your Spotify application settings
     // 5. Replace the clientID variable below with your actual Client ID obtained from Spotify Developer Dashboard
 
-    const clientID = 'f5190efe04be418698a8f07794c6c609';                                               // Spotify application client ID
-    const redirectURL = 'http://localhost:3000/';                      // Redirect URL after authorization
-    const apiURL = 'https://accounts.spotify.com/authorize';           // Spotify authorization endpoint
+    // const clientID = '';                                               // Spotify application client ID
+    // const redirectURL = 'http://localhost:3000/';                      // Redirect URL after authorization
+    // const apiURL = 'https://accounts.spotify.com/authorize';           // Spotify authorization endpoint
 
     // List of permissions the application is requesting
     const scope = [
