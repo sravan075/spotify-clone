@@ -20,7 +20,7 @@ export default function Footer() {
       
       </div>
       <div />
-      <div className="progress">
+      <div className="progress"> 
       <Slider />
       </div>
     </Container>

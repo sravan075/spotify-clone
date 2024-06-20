@@ -30,7 +30,7 @@ export default function Currenttrack() {
           image: response.data.item.album.images[2].url,
         };
         dispatch({ type: reducerCases.SET_PLAYING, currentPlaying });
-        // console.log("Current Playing (inside useEffect):", currentPlaying);
+    
       } else {
         // If there is no currently playing track, set the currentPlaying state to null
         dispatch({ type: reducerCases.SET_PLAYING, currentPlaying: null });
@@ -42,7 +42,7 @@ export default function Currenttrack() {
   }, [token, dispatch]);
 
   // Log the current playing track for debugging
-  console.log("Current Playing (inside useEffect):", currentPlaying);
+
 
   return (
     <Container>
